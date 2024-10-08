@@ -23,7 +23,7 @@ function progress(callback){
             callback();
         }
         else{
-            console.log('You could not get enough')
+            console.log('You could not get enough marks to get the certificate');
         }
-    })
+    }, 3000);
 }
